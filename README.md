@@ -3,27 +3,27 @@ modification on sam-ba .tcl patch file for loading the buildroot from windows us
 
 1) download buildroot
 
-mkdir at91sam_buildroot
-git clone git://git.buildroot.net/buildroot
-cd buidroot
+#mkdir at91sam_buildroot
+#git clone git://git.buildroot.net/buildroot
+#cd buidroot
 
 2)  check the latest stable release
 
-git tag
+#git tag
 
 3) checkout the latest
 
-git checkout 2018.05
+#git checkout 2018.05
 
 4) clean any old configuration
 
-make defconfig
-make clean
+#make defconfig
+#make clean
 
 5) confifure and for at91sam9m10ek
 
-make at91sam9g45m10ek_defconfig
-make
+#make at91sam9g45m10ek_defconfig
+#make
 
 6)wait until build is complete
 
