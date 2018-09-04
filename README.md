@@ -4,7 +4,9 @@ modification on sam-ba .tcl patch file for loading the buildroot from windows us
 1) download buildroot
 
 #mkdir at91sam_buildroot
+
 #git clone git://git.buildroot.net/buildroot
+
 #cd buidroot
 
 2)  check the latest stable release
