@@ -18,6 +18,7 @@ modification on sam-ba .tcl patch file for loading the buildroot from windows us
 4) clean any old configuration
 
 #make defconfig
+
 #make clean
 
 5) confifure and for at91sam9m10ek
