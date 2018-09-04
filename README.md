@@ -1,10 +1,12 @@
 # buildroot-at91sam9m10-flashloader
 modification on sam-ba .tcl patch file for loading the buildroot from windows using sam-ice segger programmer
 
-- download BUildroot
+#download buildroot
 
 mkdir at91sam_buildroot
+
 git clone git://git.buildroot.net/buildroot
+
 cd buidroot
 
 - check the latest stable release
@@ -14,7 +16,9 @@ git tag
 git checkout 2018.05
 
 - clean any old configuration
+
 make defconfig
+
 make clean
 
 - confifure and for at91sam9m10ek
