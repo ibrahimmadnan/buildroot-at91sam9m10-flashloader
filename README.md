@@ -26,10 +26,12 @@ make at91sam9g45m10ek_defconfig
 make
 
 6)wait until build is complete
+
 7)copy all files in output/images into folder in microsoft windows OS
 
-8)copy the the files attached on the same folder , connect your board and atmel-ice
-9)run the bat file to load the system on nand flash
+8)paste and replace your image files to the repository folder contenets
+9) connect your board and atmel-ice
+10)run the bat file to load the system on nand flash
 
 you can monitor the progress through board serial debug rs232 port.
 
