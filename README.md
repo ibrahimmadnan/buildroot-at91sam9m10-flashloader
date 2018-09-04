@@ -1,4 +1,4 @@
-# buildroot-at91sam9m10-flashloader
+# buildroot-at91sam9m10-flashloader for windows
 modification on sam-ba .tcl patch file for loading the buildroot from windows using sam-ice segger programmer
 
 1) download buildroot
