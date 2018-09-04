@@ -1,36 +1,35 @@
 # buildroot-at91sam9m10-flashloader
 modification on sam-ba .tcl patch file for loading the buildroot from windows using sam-ice segger programmer
 
-#download buildroot
+1) download buildroot
 
 mkdir at91sam_buildroot
-
 git clone git://git.buildroot.net/buildroot
-
 cd buidroot
 
-- check the latest stable release
+2)  check the latest stable release
+
 git tag
 
-- checkout the latest
+3) checkout the latest
+
 git checkout 2018.05
 
-- clean any old configuration
+4) clean any old configuration
 
 make defconfig
-
 make clean
 
-- confifure and for at91sam9m10ek
+5) confifure and for at91sam9m10ek
 
 make at91sam9g45m10ek_defconfig
 make
 
-wait until build is complete
-copy all files in output/images into folder in microsoft windows OS
+6)wait until build is complete
+7)copy all files in output/images into folder in microsoft windows OS
 
-place the the files attached on the same folder , connect your board and atmel-ice
-run the bat file to load the system on nand flash
+8)copy the the files attached on the same folder , connect your board and atmel-ice
+9)run the bat file to load the system on nand flash
 
 you can monitor the progress through board serial debug rs232 port.
 
